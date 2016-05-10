@@ -1,6 +1,6 @@
 module.exports =
 
   user : 'in coffee'
-  data:
+  data :
     governance:
       standard_metrics: 222
