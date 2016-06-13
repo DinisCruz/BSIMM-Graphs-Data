@@ -1,5 +1,5 @@
 {
-  "Key"        : "demo",
+  "key"        : "demo",
   "name"       : "BSIMM demo",
   "description": "BSIMM test data"
 }
