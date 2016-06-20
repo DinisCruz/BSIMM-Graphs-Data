@@ -1,8 +1,5 @@
 {
   "key"        : "bsimm",
   "name"       : "BSIMM demo",
-  "description": "BSIMM test data",
-  "schema":{
-    "Aaa":"bbb"
-  }
+  "description": "BSIMM test data"
 }

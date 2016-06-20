@@ -1,0 +1,7 @@
+{
+  "SM.1.1":{ "level" :"1", "description" : "Is there a formal SDL (Software Development Lifecycle) used?"},
+  "SM.1.4":{ "level" :"1", "description" : "Are there security hooks into the SDL that gather artefacts (new code deployments, test execution results, binaries)", "level" :"1"},
+  "SM.2.3":{ "level" :"2", "description" : "Is there an Security Champion?"},
+  "CP.1.1":{ "level" :"1", "description" : "Are there any regulatory or compliance drivers? (to do Security)"},
+  "CP.1.2":{ "level" :"1", "description" : "Have Sensitive Data obligations been identified?"}
+}
