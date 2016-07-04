@@ -48,7 +48,7 @@
   "AM.3.2"   :{ "domain" : "Intelligence", "practice" : "Attack Models", "level" :"3", "activity" : "Create and use automation to do what attackers will do"                    },
 
   "SFD.1.1"  :{ "domain" : "Intelligence", "practice" : "Security Features & Design", "level" :"1", "activity" : "Build and publish security features"                                                        },
-  "SDF.1.2"  :{ "domain" : "Intelligence", "practice" : "Security Features & Design", "level" :"1", "activity" : "Engage SSG with architecture"                                                               },
+  "SFD.1.2"  :{ "domain" : "Intelligence", "practice" : "Security Features & Design", "level" :"1", "activity" : "Engage SSG with architecture"                                                               },
   "SFD.2.1"  :{ "domain" : "Intelligence", "practice" : "Security Features & Design", "level" :"2", "activity" : "Build secure-by-design middleware frameworks and common libraries"                          },
   "SFD.2.2"  :{ "domain" : "Intelligence", "practice" : "Security Features & Design", "level" :"2", "activity" : "Create SSG capability to solve difficult design problems"                                   },
   "SFD.3.1"  :{ "domain" : "Intelligence", "practice" : "Security Features & Design", "level" :"3", "activity" : "Form a review board or central committee to approve and maintain secure design patterns"    },
