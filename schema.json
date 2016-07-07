@@ -1,4 +1,31 @@
 {
+  "domains":
+  {
+    "Governance"      : { "practices": ["Strategy & Metrics","Compliance & Policy","Training"] },
+    "Intelligence"    : { "practices": ["Attack Models", "Security Features & Design", "Standards & Requirements"] },
+    "SSDL Touchpoints": { "practices": ["Architecture Analysis","Code Review","Security Testing"] },
+    "Deployment"      : { "practices": ["Penetration Testing", "Software Environment", "Configuration Management & Vulnerability Management"] },
+  },
+  "practices":
+  {
+    "Strategy & Metrics"                                  : { "key": "SM"   , "activities": [ "SM.1.1"  , "SM.1.2"  , "SM.1.3"  , "SM.1.4"  , "SM.2.1"  , "SM.2.2"  , "SM.2.3" , "SM.2.5" , "SM.2.6" , "SM.3.1", "SM.3.2"           ]},
+    "Compliance & Policy"                                 : { "key": "CP"   , "activities": [ "CP.1.1"  , "CP.1.2"  , "CP.1.3"  , "CP.2.1"  , "CP.2.2"  , "CP.2.3"  , "CP.2.4" , "CP.2.5" , "CP.3.1" , "CP.3.2", "CP.3.3"           ]},
+    "Training"                                            : { "key": "T"    , "activities": [ "T.1.1"   , "T.1.5"   , "T.1.6"   , "T.1.7"   , "T.2.5"   , "T.2.6"   , "T.2.7"  , "T.3.1"  , "T.3.2"  , "T.3.3" , "T.3.4" , "T.3.5"  ]},
+
+    "Attack Models"                                       : { "key": "AM"   , "activities": [ "AM.1.1"  , "AM.1.2"  , "AM.1.3"  , "AM.1.4"  , "AM.1.5"  , "AM.1.6"  , "AM.2.1" , "AM.2.2" , "AM.3.1" , "AM.3.2"                     ]},
+    "Security Features & Design"                          : { "key": "SFD"  , "activities": [ "SFD.1.1" , "SFD.1.2" , "SFD.2.1" , "SFD.2.2" , "SFD.3.1" , "SFD.3.2" , "SFD.3.3"                                                     ]},
+    "Standards & Requirements"                            : { "key": "SR"   , "activities": [ "SR.1.1"  , "SR.1.2"  , "SR.1.3"  , "SR.2.2"  , "SR.2.3"  , "SR.2.4"  , "SR.2.5" , "SR.2.6" , "SR.3.1" , "SR.3.2"                     ]},
+
+    "Architecture Analysis"                               : { "key": "AA"   , "activities": [ "AA.1.1"  , "AA.1.2"  , "AA.1.3"  , "AA.1.4"  , "AA.2.1"  , "AA.2.2"  , "AA.2.3" , "AA.3.1" , "AA.3.2"                                ]},
+    "Code Review"                                         : { "key": "CR"   , "activities": [ "CR.1.1"  , "CR.1.2"  , "CR.1.4"  , "CR.1.5"  , "CR.1.6"  , "CR.2.2"  , "CR.2.5" , "CR.2.6" , "CR.3.1" , "CR.3.3", "CR.3.4"           ]},
+    "Security Testing"                                    : { "key": "ST"   , "activities": [ "ST.1.1"  , "ST.1.3"  , "ST.2.1"  , "ST.2.4"  , "ST.2.5"  , "ST.2.6"  , "ST.3.3" , "ST.3.4" , "ST.3.5"                                ]},
+
+    "Penetration Testing"                                 : { "key": "PT"   , "activities": [ "PT.1.1"  , "PT.1.2"  , "PT.1.3"  , "PT.2.2"  , "PT.2.3"  , "PT.3.1"  , "PT.3.2"                                                      ]},
+    "Software Environment"                                : { "key": "SE"   , "activities": [ "SE.1.1"  , "SE.1.2"  , "SE.2.2"  , "SE.2.4"  , "SE.3.2"  , "SE.3.3"                                                                  ]},
+    "Configuration Management & Vulnerability Management" : { "key": "CMVM" , "activities": [ "CMVM.1.1", "CMVM.1.2", "CMVM.2.1", "CMVM.2.2", "CMVM.2.3", "CMVM.3.1", "CMVM.3.2", "CMVM.3.3", "CMVM.3.4"                            ]}
+  },
+  "activities": {
+
   "SM.1.1"   :{ "domain" : "Governance", "practice" : "Strategy & Metrics", "level" :"1", "activity" : "Publish process (roles, responsibilities, plan), evolve as necessary" },
   "SM.1.2"   :{ "domain" : "Governance", "practice" : "Strategy & Metrics", "level" :"1", "activity" : "Create evangelism role and perform internal marketing"                },
   "SM.1.3"   :{ "domain" : "Governance", "practice" : "Strategy & Metrics", "level" :"1", "activity" : "Educate executives"                                                   },
@@ -124,7 +151,8 @@
   "CMVM.3.3" :{ "domain" : "Deployment", "practice" : "Configuration Management & Vulnerability Management", "level" :"3", "activity" : "Simulate software crisis"                                                                    },
   "CMVM.3.4" :{ "domain" : "Deployment", "practice" : "Configuration Management & Vulnerability Management", "level" :"3", "activity" : "Operate a bug bounty program"                                                                }
 
-}
+} }
+
 
 
 

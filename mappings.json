@@ -1,0 +1,11 @@
+{
+  "source-schema": "bsimm",
+  "target-schema": "samm"
+  "activities":
+    {
+      "SM.1.1": [ "SM 1.B" ],
+      "AM1.1" : [ "SM 1.A" ],
+      "AM1.3" : [ "SM 1.A", "SM 1.B" ],
+      "AA1.4" : [ "SM 1.A", "SM 2.A" ]
+    }
+}
