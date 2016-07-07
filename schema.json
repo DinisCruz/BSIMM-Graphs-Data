@@ -1,10 +1,10 @@
 {
   "domains":
   {
-    "Governance"      : { "practices": ["Strategy & Metrics","Compliance & Policy","Training"] },
-    "Intelligence"    : { "practices": ["Attack Models", "Security Features & Design", "Standards & Requirements"] },
-    "SSDL Touchpoints": { "practices": ["Architecture Analysis","Code Review","Security Testing"] },
-    "Deployment"      : { "practices": ["Penetration Testing", "Software Environment", "Configuration Management & Vulnerability Management"] },
+    "Governance"                                          : { "practices": ["Strategy & Metrics"    , "Compliance & Policy"        , "Training"                                             ] },
+    "Intelligence"                                        : { "practices": ["Attack Models"         , "Security Features & Design" , "Standards & Requirements"                             ] },
+    "SSDL Touchpoints"                                    : { "practices": ["Architecture Analysis" , "Code Review"                , "Security Testing"                                     ] },
+    "Deployment"                                          : { "practices": ["Penetration Testing"   , "Software Environment"       , "Configuration Management & Vulnerability Management"  ] },
   },
   "practices":
   {
