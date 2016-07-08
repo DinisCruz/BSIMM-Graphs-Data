@@ -134,7 +134,8 @@
     "PT.3.2"   :{ "level" :"3", "name" : "Have the SSG customize penetration testing tools and scripts"                                 },
 
     "SE.1.1"   :{ "level" :"1", "name" : "Use application input monitoring"                                                             },
-    "SE.1.2"   :{ "level" :"2", "name" : "Publish installation guides"                                                                  },
+    "SE.1.2"   :{ "level" :"2", "name" : "Ensure host and network security basics are in place"                                         },
+    "SE.2.2"   :{ "level" :"2", "name" : "Publish installation guides"                                                                  },
     "SE.2.4"   :{ "level" :"2", "name" : "Use code signing"                                                                             },
     "SE.3.2"   :{ "level" :"3", "name" : "Use code protection"                                                                          },
     "SE.3.3"   :{ "level" :"3", "name" : "Use application behavior monitoring and diagnostics"                                          },
