@@ -6,10 +6,9 @@ get_Data = ()->
       team      : 'Team Random'
     activities  : {}      
 
-  add_Activity = (domain, practices)->
+  add_Activity = (practices)->
     for practice in practices
-      data.activities[domain] ?= {}
-      data.activities[domain][practice] = random_Value()
+      data.activities[practice] = random_Value()
 
   governance_Activities   = ['SM.1.1'  , 'SM.1.4'  , 'SM.2.3'  ,
                              'CP.1.1'  , 'CP.1.2'  , 'CP.2.1'  , 'CP.2.2'   , 'CP.2.4'  , 'CP.2.5'  , 'CP.3.2'  , 'CP.3.2.1', 'CP.3.2.2',
@@ -27,10 +26,10 @@ get_Data = ()->
                              'SE.1.1'  , 'SE.1.1.1', 'SE.1.1.2', 'SE.1.4'   , 'SE.2.2'  , 'SE.2.4'  , 'SE.3.2'  , 'SE.3.3'  ,
                              'CMVM.1.1', 'CMVM.1.2', 'CMVM.2.1', 'CMVM.2.2' , 'CMVM.2.3', 'CMVM.3.1', 'CMVM.3.2'                         ]
 
-  add_Activity 'Governance'  , governance_Activities
-  add_Activity 'Intelligence', intelligence_Activities
-  add_Activity 'SSDL'        , ssdl_Activities
-  add_Activity 'Deployment'  , deployment_Activities
+  add_Activity  governance_Activities
+  add_Activity  intelligence_Activities
+  add_Activity ssdl_Activities
+  add_Activity deployment_Activities
   data
 
 module.exports = get_Data
