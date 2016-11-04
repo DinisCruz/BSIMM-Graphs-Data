@@ -1,6 +1,12 @@
 {
   "metadata": {
-    "team": "Team C"
+    "team": "Team C",
+    "security-champion": "",
+    "source-code-repo": "",
+    "issue-tracking": "",
+    "wiki": "",
+    "ci-server": "",
+    "created-by": ""
   },
   "activities": {
     "SM.1.1": "Yes",
