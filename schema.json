@@ -1,4 +1,17 @@
 {
+  "config": {
+    "schema" : "bsimm",
+    "version": "6"
+  },
+  "metadata": [
+                "team",
+                "security-champion",
+                "source-code-repo",
+                "issue-tracking",
+                "wiki",
+                "ci-server",
+                "created-by"
+              ],
   "domains":
   {
     "Governance"                                          : { "practices": ["Strategy & Metrics"    , "Compliance & Policy"        , "Training"                                                                                     ]},
