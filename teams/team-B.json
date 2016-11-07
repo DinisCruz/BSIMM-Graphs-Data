@@ -15,7 +15,7 @@
     },
     "SM.1.4": {
       "value": "Yes",
-      "proof": ""
+      "proof": "JIRA"
     },
     "SM.2.2": {
       "value": "No",
@@ -23,7 +23,7 @@
     },
     "SM.2.3": {
       "value": "Yes",
-      "proof": ""
+      "proof": "abc"
     },
     "CP.1.1": {
       "value": "Yes",
