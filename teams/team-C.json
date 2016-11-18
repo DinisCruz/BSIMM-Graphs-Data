@@ -14,7 +14,7 @@
       "proof": ""
     },
     "SM.1.4": {
-      "value": "No",
+      "value": "NA",
       "proof": ""
     },
     "SM.2.2": {
@@ -26,7 +26,7 @@
       "proof": ""
     },
     "CP.1.1": {
-      "value": "Maybe",
+      "value": "No",
       "proof": ""
     },
     "CP.1.2": {
@@ -53,24 +53,16 @@
       "value": "No",
       "proof": ""
     },
-    "CP.3.2.1": {
-      "value": "Maybe",
-      "proof": ""
-    },
-    "CP.3.2.2": {
-      "value": "Maybe",
-      "proof": ""
-    },
     "T.1.1": {
-      "value": "Maybe",
+      "value": "NA",
       "proof": ""
     },
     "T.1.5": {
-      "value": "No",
+      "value": "Maybe",
       "proof": ""
     },
     "T.1.6": {
-      "value": "Yes",
+      "value": "NA",
       "proof": ""
     },
     "T.1.7": {
@@ -94,7 +86,7 @@
       "proof": ""
     },
     "AM.1.2": {
-      "value": "Maybe",
+      "value": "No",
       "proof": ""
     },
     "AM.1.2.1": {
@@ -102,7 +94,7 @@
       "proof": ""
     },
     "AM.1.3": {
-      "value": "Maybe",
+      "value": "NA",
       "proof": ""
     },
     "AM.1.4": {
@@ -114,11 +106,11 @@
       "proof": ""
     },
     "SFD.1.1": {
-      "value": "Maybe",
+      "value": "Yes",
       "proof": ""
     },
     "SFD.1.2": {
-      "value": "Maybe",
+      "value": "No",
       "proof": ""
     },
     "SFD.1.2.1": {
@@ -126,7 +118,7 @@
       "proof": ""
     },
     "SR.1.1": {
-      "value": "Maybe",
+      "value": "NA",
       "proof": ""
     },
     "SR.1.2": {
@@ -295,6 +287,206 @@
     },
     "CMVM.3.2": {
       "value": "Maybe",
+      "proof": ""
+    },
+    "SM.1.2": {
+      "value": "NA",
+      "proof": ""
+    },
+    "SM.1.3": {
+      "value": "Maybe",
+      "proof": ""
+    },
+    "SM.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.2.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.2.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.2.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.2.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.3.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AM.1.5": {
+      "value": "NA",
+      "proof": ""
+    },
+    "AM.1.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.2.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.1.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.2.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.1.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.2.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.2.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.3.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "ST.2.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "PT.1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "PT.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "PT.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "CMVM.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CMVM.3.4": {
+      "value": "No",
       "proof": ""
     }
   }
