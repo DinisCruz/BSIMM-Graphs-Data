@@ -6,7 +6,8 @@
     "issue-tracking": "",
     "wiki": "",
     "ci-server": "",
-    "created-by": ""
+    "created-by": "",
+    "hide-from-stats": ""
   },
   "activities": {
     "SM.1.1": {

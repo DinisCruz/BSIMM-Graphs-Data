@@ -10,7 +10,8 @@
                 "issue-tracking",
                 "wiki",
                 "ci-server",
-                "created-by"
+                "created-by",
+                "hide-from-stats"
               ],
   "domains":
   {

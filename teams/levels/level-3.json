@@ -450,12 +450,13 @@
     }
   },
   "metadata": {
-    "team": "level-3",
+    "team": "Level 3",
     "security-champion": "",
     "source-code-repo": "",
     "issue-tracking": "",
     "wiki": "",
     "ci-server": "",
-    "created-by": ""
+    "created-by": "",
+    "hide-from-stats": "yes"
   }
 }
