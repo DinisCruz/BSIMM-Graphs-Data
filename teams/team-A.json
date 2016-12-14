@@ -97,10 +97,6 @@
       "value": "Maybe",
       "proof": ""
     },
-    "AM.1.2.1": {
-      "value": "NA",
-      "proof": ""
-    },
     "AM.1.3": {
       "value": "No",
       "proof": ""
@@ -109,20 +105,12 @@
       "value": "Yes",
       "proof": ""
     },
-    "SDF1.1": {
-      "value": "No",
-      "proof": ""
-    },
     "SFD.1.1": {
       "value": "NA",
       "proof": ""
     },
     "SFD.1.2": {
       "value": "Maybe",
-      "proof": ""
-    },
-    "SFD.1.2.1": {
-      "value": "NA",
       "proof": ""
     },
     "SR.1.1": {
@@ -139,10 +127,6 @@
     },
     "SR.2.4": {
       "value": "NA",
-      "proof": ""
-    },
-    "SR.2.4.1": {
-      "value": "Maybe",
       "proof": ""
     },
     "SR.2.6": {
@@ -186,10 +170,6 @@
       "proof": ""
     },
     "ST.1.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "ST.1.3.1": {
       "value": "Yes",
       "proof": ""
     },
@@ -237,20 +217,8 @@
       "value": "Maybe",
       "proof": ""
     },
-    "SE.1.1.1": {
-      "value": "Maybe",
-      "proof": ""
-    },
-    "SE.1.1.2": {
-      "value": "Maybe",
-      "proof": ""
-    },
     "SE.1.2": {
       "value": "Yes",
-      "proof": ""
-    },
-    "SE.1.4": {
-      "value": "Maybe",
       "proof": ""
     },
     "SE.2.2": {
