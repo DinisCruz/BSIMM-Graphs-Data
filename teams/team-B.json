@@ -6,12 +6,13 @@
     "issue-tracking": "",
     "wiki": "",
     "ci-server": "",
-    "created-by": ""
+    "created-by": "",
+    "hide-from-stats": ""
   },
   "activities": {
     "SM.1.1": {
       "value": "Yes",
-      "proof": "SM .1.1 proof"
+      "proof": "SM .1.1 proof (test)"
     },
     "SM.1.4": {
       "value": "Yes",
@@ -296,6 +297,198 @@
     "SM.1.3": {
       "value": "No",
       "proof": "3rd proof"
+    },
+    "SM.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.2.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.2.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SM.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.2.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "CP.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.2.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "T.3.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.1.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.1.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.1.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AM.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SFD.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.2.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "SR.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.1.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.2.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "AA.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.1.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.2.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.2.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CR.3.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "ST.2.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "PT.1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "PT.3.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "PT.3.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "CMVM.3.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "CMVM.3.4": {
+      "value": "No",
+      "proof": ""
     }
   }
 }
