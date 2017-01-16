@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "team": "BSIMM - Level 1",
+    "team": "Day - 0",
     "security-champion": "",
     "source-code-repo": "",
     "issue-tracking": "",
     "wiki": "",
     "ci-server": "",
     "created-by": "",
-    "hide-from-stats": "yes"
+    "hide-from-stats": "no"
   },
   "activities": {
     "SM.1.1": {
