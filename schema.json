@@ -31,7 +31,7 @@
     "Standards & Requirements"                            : { "key": "SR"   , "activities": [ "SR.1.1"  , "SR.1.2"  , "SR.1.3"  , "SR.2.2"  , "SR.2.3"  , "SR.2.4"  , "SR.2.5" , "SR.2.6" , "SR.3.1" , "SR.3.2"                     ]},
 
     "Architecture Analysis"                               : { "key": "AA"   , "activities": [ "AA.1.1"  , "AA.1.2"  , "AA.1.3"  , "AA.1.4"  , "AA.2.1"  , "AA.2.2"  , "AA.2.3" , "AA.3.1" , "AA.3.2"                                ]},
-    "Code Review"                                         : { "key": "CR"   , "activities": [ "CR.1.1"  , "CR.1.2"  , "CR.1.4"  , "CR.1.5"  , "CR.1.6"  , "CR.2.2"  , "CR.2.5" , "CR.2.6" , "CR.3.1" , "CR.3.3", "CR.3.4"           ]},
+    "Code Review"                                         : { "key": "CR"   , "activities": [ "CR.1.1"  , "CR.1.2"  , "CR.1.4"  , "CR.1.5"  , "CR.1.6"  , "CR.2.2"  , "CR.2.5" , "CR.2.6" , "CR.3.2" , "CR.3.3", "CR.3.4"           ]},
     "Security Testing"                                    : { "key": "ST"   , "activities": [ "ST.1.1"  , "ST.1.3"  , "ST.2.1"  , "ST.2.4"  , "ST.2.5"  , "ST.2.6"  , "ST.3.3" , "ST.3.4" , "ST.3.5"                                ]},
 
     "Penetration Testing"                                 : { "key": "PT"   , "activities": [ "PT.1.1"  , "PT.1.2"  , "PT.1.3"  , "PT.2.2"  , "PT.2.3"  , "PT.3.1"  , "PT.3.2"                                                      ]},
@@ -125,7 +125,7 @@
     "CR.2.2"   :{ "level" :"2", "name" : "Enforce coding standards"                                                                     },
     "CR.2.5"   :{ "level" :"2", "name" : "Assign tool mentors"                                                                          },
     "CR.2.6"   :{ "level" :"2", "name" : "Use automated tools with tailored rules"                                                      },
-    "CR.3.1"   :{ "level" :"3", "name" : "Build a factory"                                                                              },
+    "CR.3.2"   :{ "level" :"3", "name" : "Build a factory"                                                                              },
     "CR.3.3"   :{ "level" :"3", "name" : "Build a capability for eradicating specific bugs from the entire codebase"                    },
     "CR.3.4"   :{ "level" :"3", "name" : "Automate malicious code detection"                                                            },
 
