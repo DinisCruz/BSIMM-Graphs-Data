@@ -2,9 +2,9 @@
   "activities": {
     "SM.1.1": {
       "description": "The process for addressing software security is broadcast to all stakeholders so that everyone knows the plan. Goals, roles, responsibilities, and activities are explicitly defined. Most organizations pick and choose from a published methodology, such as the Microsoft SDL or the Cigital Touchpoints, and then tailor the methodology to their needs. An SSDL process must be adapted to the specifics of the development process it governs (e.g., waterfall, agile, etc) and evolves both with the organization and the security landscape. A process must be published to count. In many cases, the methodology is published only internally and is controlled by the SSG. The SSDL does not need to be publicly promoted outside of the firm to have the desired impact.",
-      "resources"  : ["https://www.bsimm.com/framework/governance/software-security-metrics-strategy/"],
+      "resources"  : ["https://www.bsimm.com/framework/governance/software-security-metrics-strategy/", "https://intranet/link.to.details"],
       "objective"  : "make the plan explicit ",
-      "proof"      : "Details should be published on wiki (provide link as proof)" },
+      "proof"      : "Details should be published on wiki (see resource link)" },
     "SM.1.2": {
       "description": "In order to build support for software security throughout the organization, someone in the SSG plays an evangelism role. This internal marketing function helps keep executives and all other stakeholders current on the magnitude of the software security problem and the elements of its solution. Evangelists might give talks for internal groups including executives, extend invitations to outside speakers, author white papers for internal consumption, or create a collection of papers, books, and other resources on an internal website and promote its use. Ad hoc conversations between the SSG and executives, or an SSG where “everyone is an evangelist,” do not achieve the desired results. A canonical example of such an evangelist was Michael Howard’s role at Microsoft just after the Gates memo.",
       "resources"  : [],
