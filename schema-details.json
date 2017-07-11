@@ -208,12 +208,6 @@
     },
 
 
-    "AM.1.1": {
-      "description": "The SSG helps the organization understand attack basics by maintaining a living list of attacks most important to the firm and using it to drive change. This list combines input from multiple sources: observed attacks, hacker forums, industry trends, etc. The list does not need to be updated with great frequency and the attacks can be sorted in a coarse fashion. For example, the SSG might brainstorm twice per year to create lists of attacks the organization should be prepared to counter “now,” “soon,” and “someday.” In some cases, attack model information is used in a list-based approach to architecture analysis, helping to focus the analysis as in the case of STRIDE.",
-      "resources"  : [],
-      "objective"  : "understand attack basics ",
-      "proof"      : ""
-    },
     "AM.1.2": {
       "description": "The organization agrees upon a data classification scheme and uses the scheme to inventory its software according to the kinds of data the software handles. This allows applications to be prioritized by their data classification. Many classification schemes are possible—one approach is to focus on PII. Depending upon the scheme and the software involved, it could be easiest to first classify data repositories, then derive classifications for applications according to the repositories they use. Other approaches to the problem are possible. For example, data could be classified according to protection of intellectual property, impact of disclosure, exposure to attack, relevance to SOX, or geographic boundaries.",
       "resources"  : [],
@@ -226,22 +220,10 @@
       "objective"  : "understand the \"who\" of attacks ",
       "proof"      : ""
     },
-    "AM.1.4": {
-      "description": "To maximize the benefit from lessons that don’t always come cheap, the SSG collects and publishes stories about attacks against the organization. Over time, this collection helps the organization understand its history. Both successful and unsuccessful attacks can be noteworthy. Discussing historical information about software attacks has the effect of grounding software security in the reality of a firm. This is particularly useful in training classes to counter a generic approach over-focused on top 10 lists or irrelevant and outdated platform attacks. Hiding information about attacks from people building new systems does nothing to garner positive benefit from a negative happenstance.",
-      "resources"  : [],
-      "objective"  : "understand the organization's history ",
-      "proof"      : ""
-    },
     "AM.1.5": {
       "description": "The SSG stays ahead of the curve by learning about new types of attacks and vulnerabilities. The information comes from attending conferences and workshops, monitoring attacker forums, and reading relevant publications, mailing lists, and blogs. Make Sun Tzu proud by knowing your enemy; engage with the security researchers who are likely to cause you trouble. In many cases, a subscription to a commercial service provides a reasonable way of gathering basic attack intelligence. Regardless of its origin, attack information must be made actionable and useful for software builders and testers.",
       "resources"  : [],
       "objective"  : "stay current on attack/vulnerability environment ",
-      "proof"      : ""
-    },
-    "AM.1.6": {
-      "description": "The organization has an internal forum where the SSG, the satellite, and others discuss attacks. The forum serves to communicate the attacker perspective. The SSG could maintain an internal mailing list where subscribers share the latest information on publicly known incidents. Dissection of attacks and exploits that are relevant to a firm are particularly helpful when they spur discussion of development mitigations. Simply republishing items from public mailing lists doesn’t achieve the same benefits as active discussion. Vigilance means never getting too comfortable (see SR1.2 Create a security portal).",
-      "resources"  : [],
-      "objective"  : "communicate attacker perspective ",
       "proof"      : ""
     },
     "AM.2.1": {
@@ -255,6 +237,24 @@
       "resources"  : [],
       "objective"  : "understand technology-driven attacks ",
       "proof"      : ""
+    },
+    "AM.2.5": {
+        "description": "The SSG helps the organization understand attack basics by maintaining a living list of attacks most important to the firm and using it to drive change. This list combines input from multiple sources: observed attacks, hacker forums, industry trends, etc. The list does not need to be updated with great frequency and the attacks can be sorted in a coarse fashion. For example, the SSG might brainstorm twice per year to create lists of attacks the organization should be prepared to counter “now,” “soon,” and “someday.” In some cases, attack model information is used in a list-based approach to architecture analysis, helping to focus the analysis as in the case of STRIDE.",
+        "resources"  : [],
+        "objective"  : "understand attack basics ",
+        "proof"      : ""
+    },
+    "AM.2.6": {
+          "description": "To maximize the benefit from lessons that don’t always come cheap, the SSG collects and publishes stories about attacks against the organization. Over time, this collection helps the organization understand its history. Both successful and unsuccessful attacks can be noteworthy. Discussing historical information about software attacks has the effect of grounding software security in the reality of a firm. This is particularly useful in training classes to counter a generic approach over-focused on top 10 lists or irrelevant and outdated platform attacks. Hiding information about attacks from people building new systems does nothing to garner positive benefit from a negative happenstance.",
+          "resources"  : [],
+          "objective"  : "understand the organization's history ",
+          "proof"      : ""
+    },
+    "AM.2.7": {
+          "description": "The organization has an internal forum where the SSG, the satellite, and others discuss attacks. The forum serves to communicate the attacker perspective. The SSG could maintain an internal mailing list where subscribers share the latest information on publicly known incidents. Dissection of attacks and exploits that are relevant to a firm are particularly helpful when they spur discussion of development mitigations. Simply republishing items from public mailing lists doesn’t achieve the same benefits as active discussion. Vigilance means never getting too comfortable (see SR1.2 Create a security portal).",
+          "resources"  : [],
+          "objective"  : "communicate attacker perspective ",
+          "proof"      : ""
     },
     "AM.3.1": {
       "description": "The SSG has a science team that works to identify and defang new classes of attacks before real attackers even know they exist. This isn’t a penetration testing team finding new instances of known types of weaknesses—it’s a research group innovating new types of attacks. A science team may include well-known security researchers who publish their findings at conferences like Def Con.",
@@ -312,19 +312,6 @@
       "objective"  : "practice reuse ",
       "proof"      : ""
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
     "SR.1.1": {
       "description": "Software security requires much more than security features, but security features are part of the job as well. The SSG meets the organization’s demand for security guidance by creating standards that explain the accepted way to adhere to policy and carry out specific security-centric operations. A standard might describe how to perform authentication using J2EE or how to determine the authenticity of a software update (see SFD1.1 Build and publish security features for one case where the SSG provides a reference implementation of a security standard). Standards can be deployed in a variety of ways. In some cases, standards and guidelines can be automated in development environments (e.g., worked into an IDE). In other cases, guidelines can be explicitly linked to code examples to make them more actionable and relevant. Standards that are not widely adopted and enforced are not really standards.",
       "resources"  : [],
@@ -439,12 +426,6 @@
       "objective"  : "build proactive security architecture ",
       "proof"      : ""
     },
-    "CR.1.1": {
-      "description": "The SSG maintains a list of the most important kinds of bugs that must be eliminated from the organization’s code and uses it to drive change. The list helps focus the organization’s attention on the bugs that matter most. It’s okay to start with a generic list pulled from public sources, but a list is much more valuable if it’s specific to the organization and built from real data gathered from code review, testing, and actual incidents. The SSG can periodically update the list and publish a “most wanted” report. (For another way to use the list, see T1.6 Create and use material specific to company history). Some firms use multiple tools and real code base data to build Top N lists, not constraining themselves to a particular service or tool. One potential pitfall with a Top N list is the problem of “looking for your keys only under the street light.” For example, the OWASP Top 10 list rarely reflects an organization’s bug priorities. Simply sorting the day’s bug data by number of occurrences doesn’t produce a satisfactory Top N list because these data change so often.",
-      "resources"  : [],
-      "objective"  : "know which bugs matter to you ",
-      "proof"      : ""
-    },
     "CR.1.2": {
       "description": "The SSG performs an ad hoc code review for high-risk applications in an opportunistic fashion. For example, the SSG might follow up the design review for high-risk applications with a code review. At higher maturity levels, replace ad hoc targeting with a systematic approach. SSG review could involve the use of specific tools and services, or it might be manual.",
       "resources"  : [],
@@ -469,12 +450,6 @@
       "objective"  : "know which bugs matter (for training) ",
       "proof"      : ""
     },
-    "CR.2.2": {
-      "description": "A violation of the organization’s secure coding standards is sufficient grounds for rejecting a piece of code. Code review is objective—it shouldn’t devolve into a debate about whether or not bad code is exploitable. The enforced portion of the standard could start out being as simple as a list of banned functions. In some cases, coding standards for developers are published specific to technology stacks (for example, guidelines for C++ or Spring) and then enforced during the code review process or directly in the IDE. Standards can be positive (“do it this way”) as well as negative (“do not use this API”).",
-      "resources"  : [],
-      "objective"  : "drive behavior objectively ",
-      "proof"      : ""
-    },
     "CR.2.5": {
       "description": "Mentors are available to show developers how to get the most out of code review tools. If the SSG is most skilled with the tools, it could use office hours to help developers establish the right configuration or get started interpreting results. Alternatively, someone from the SSG might work with a development team for the duration of the first review they perform. Centralized use of a tool can be distributed into the development organization over time through the use of tool mentors.",
       "resources"  : [],
@@ -487,6 +462,12 @@
       "objective"  : "drive efficiency/reduce false positives ",
       "proof"      : ""
     },
+    "CR.2.7": {
+        "description": "The SSG maintains a list of the most important kinds of bugs that must be eliminated from the organization’s code and uses it to drive change. The list helps focus the organization’s attention on the bugs that matter most. It’s okay to start with a generic list pulled from public sources, but a list is much more valuable if it’s specific to the organization and built from real data gathered from code review, testing, and actual incidents. The SSG can periodically update the list and publish a “most wanted” report. (For another way to use the list, see T1.6 Create and use material specific to company history). Some firms use multiple tools and real code base data to build Top N lists, not constraining themselves to a particular service or tool. One potential pitfall with a Top N list is the problem of “looking for your keys only under the street light.” For example, the OWASP Top 10 list rarely reflects an organization’s bug priorities. Simply sorting the day’s bug data by number of occurrences doesn’t produce a satisfactory Top N list because these data change so often.",
+        "resources"  : [],
+        "objective"  : "know which bugs matter to you ",
+        "proof"      : ""
+      },    
     "CR.3.2": {
       "description": "Combine assessment results so that multiple analysis techniques feed into one reporting and remediation process. The SSG might write scripts to invoke multiple detection techniques automatically and combine the results into a format that can be consumed by a single downstream review and reporting solution. Analysis engines may combine static and dynamic analysis. The tricky part of this activity is normalizing vulnerability information from disparate sources that use conflicting terminology. In some cases, a CWE-like approach can help with nomenclature. Combining multiple sources helps drive better informed risk mitigation decisions.",
       "resources"  : [],
@@ -505,6 +486,12 @@
       "objective"  : "{...}",
       "proof"      : ""
     },
+    "CR.3.5": {
+        "description": "A violation of the organization’s secure coding standards is sufficient grounds for rejecting a piece of code. Code review is objective—it shouldn’t devolve into a debate about whether or not bad code is exploitable. The enforced portion of the standard could start out being as simple as a list of banned functions. In some cases, coding standards for developers are published specific to technology stacks (for example, guidelines for C++ or Spring) and then enforced during the code review process or directly in the IDE. Standards can be positive (“do it this way”) as well as negative (“do not use this API”).",
+        "resources"  : [],
+        "objective"  : "drive behavior objectively ",
+        "proof"      : ""
+      },  
     "ST.1.1": {
       "description": "The QA team goes beyond functional testing to perform basic adversarial tests. They probe simple edge cases and boundary conditions. No attacker skills required. When QA understands the value of pushing past standard functional testing using acceptable input, they begin to move slowly toward “thinking like a bad guy.” A discussion of boundary value testing leads naturally to the notion of an attacker probing the edges on purpose. What happens when you enter the wrong password over and over?",
       "resources"  : [],
