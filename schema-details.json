@@ -41,12 +41,6 @@
       "objective"  : "create broad base of support ",
       "proof"      : ""
     },
-    "SM.2.5": {
-      "description": "The SSG and its management choose the metrics that define and measure software security initiative progress. These metrics will drive the initiative’s budget and allocation of resources, so simple counts and statistics won’t suffice. Metrics also allow the SSG to explain its goals and its progress in quantitative terms. One such metric could be security defect density. A reduction in security defect density could be used to show a decreasing cost of remediation over time. The key here is to tie technical results to business objectives in a clear and obvious fashion in order to justify funding. Because the concept of security is already tenuous to business people, making this explicit tie can be very helpful.",
-      "resources"  : [],
-      "objective"  : "define success ",
-      "proof"      : ""
-    },
     "SM.2.6": {
       "description": "The organization has an initiative-wide process for accepting security risk and documenting accountability. A risk acceptor signs off on the state of all software prior to release. For example, the sign-off policy might require the head of the business unit to sign off on critical vulnerabilities that have not been mitigated or SSDL steps that have been skipped. Informal risk acceptance alone does not count as security sign off, as the act of accepting risk is more effective when it is formalized (e.g., with a signature, form submission, or something similar) and captured for future reference. Similarly, simply stating that certain projects never need a sign-off does not achieve the desired results.",
       "resources"  : [],

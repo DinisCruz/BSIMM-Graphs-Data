@@ -1,7 +1,7 @@
 {
   "config": {
     "schema" : "bsimm",
-    "version": "6"
+    "version": "9"
   },
   "metadata": [
                 "team",
@@ -22,20 +22,20 @@
   },
   "practices":
   {
-    "Strategy & Metrics"                                  : { "key": "SM"   , "activities": [ "SM.1.1"  , "SM.1.2"  , "SM.1.3"  , "SM.1.4"  , "SM.2.1"  , "SM.2.2"  , "SM.2.3" , "SM.2.5" , "SM.2.6" , "SM.3.1", "SM.3.2"           ]},
+    "Strategy & Metrics"                                  : { "key": "SM"   , "activities": [ "SM.1.1"  , "SM.1.2"  , "SM.1.3"  , "SM.1.4"  , "SM.2.1"  , "SM.2.2"  , "SM.2.3" , "SM.2.6" , "SM.3.1", "SM.3.2" , "SM.3.3"            ]},
     "Compliance & Policy"                                 : { "key": "CP"   , "activities": [ "CP.1.1"  , "CP.1.2"  , "CP.1.3"  , "CP.2.1"  , "CP.2.2"  , "CP.2.3"  , "CP.2.4" , "CP.2.5" , "CP.3.1" , "CP.3.2", "CP.3.3"           ]},
-    "Training"                                            : { "key": "T"    , "activities": [ "T.1.1"   , "T.1.5"   , "T.1.6"   , "T.1.7"   , "T.2.5"   , "T.2.6"   , "T.2.7"  , "T.3.1"  , "T.3.2"  , "T.3.3" , "T.3.4" , "T.3.5"  ]},
+    "Training"                                            : { "key": "T"    , "activities": [ "T.1.1"   , "T.1.5"   , "T.1.6"   , "T.1.7"   , "T.2.5"   , "T.2.6" , "T.3.1"  , "T.3.2"  , "T.3.3" , "T.3.4" , "T.3.5" , "T.3.6"  ]},
 
-    "Attack Models"                                       : { "key": "AM"   , "activities": [ "AM.1.1"  , "AM.1.2"  , "AM.1.3"  , "AM.1.4"  , "AM.1.5"  , "AM.1.6"  , "AM.2.1" , "AM.2.2" , "AM.3.1" , "AM.3.2"                     ]},
+    "Attack Models"                                       : { "key": "AM"   , "activities": [ "AM.1.1"  , "AM.1.2"  , "AM.1.5"   , "AM.2.1" , "AM.2.2" , "AM.2.3" , "AM.2.5" , "AM.2.6" , "AM.2.7" , "AM.3.1" , "AM.3.2"                     ]},
     "Security Features & Design"                          : { "key": "SFD"  , "activities": [ "SFD.1.1" , "SFD.1.2" , "SFD.2.1" , "SFD.2.2" , "SFD.3.1" , "SFD.3.2" , "SFD.3.3"                                                     ]},
-    "Standards & Requirements"                            : { "key": "SR"   , "activities": [ "SR.1.1"  , "SR.1.2"  , "SR.1.3"  , "SR.2.2"  , "SR.2.3"  , "SR.2.4"  , "SR.2.5" , "SR.2.6" , "SR.3.1" , "SR.3.2"                     ]},
+    "Standards & Requirements"                            : { "key": "SR"   , "activities": [ "SR.1.1"  , "SR.1.2"  , "SR.1.3"  , "SR.2.2"  , "SR.2.3"  , "SR.2.4"  , "SR.2.5" , "SR.3.1" , "SR.3.2"   , "SR.3.3"                   ]},
 
-    "Architecture Analysis"                               : { "key": "AA"   , "activities": [ "AA.1.1"  , "AA.1.2"  , "AA.1.3"  , "AA.1.4"  , "AA.2.1"  , "AA.2.2"  , "AA.2.3" , "AA.3.1" , "AA.3.2"                                ]},
-    "Code Review"                                         : { "key": "CR"   , "activities": [ "CR.1.1"  , "CR.1.2"  , "CR.1.4"  , "CR.1.5"  , "CR.1.6"  , "CR.2.2"  , "CR.2.5" , "CR.2.6" , "CR.3.2" , "CR.3.3", "CR.3.4"           ]},
+    "Architecture Analysis"                               : { "key": "AA"   , "activities": [ "AA.1.1"  , "AA.1.2"  , "AA.1.3"  , "AA.1.4"  , "AA.2.1"  , "AA.2.2"  , "AA.3.1" , "AA.3.2"  , "AA.3.3"                               ]},
+    "Code Review"                                         : { "key": "CR"   , "activities": [   "CR.1.2"  , "CR.1.4"  , "CR.1.5"  , "CR.1.6"   , "CR.2.5" , "CR.2.6" , "CR.2.7" , "CR.3.2" , "CR.3.3", "CR.3.4" , "CR.3.5"              ]},
     "Security Testing"                                    : { "key": "ST"   , "activities": [ "ST.1.1"  , "ST.1.3"  , "ST.2.1"  , "ST.2.4"  , "ST.2.5"  , "ST.2.6"  , "ST.3.3" , "ST.3.4" , "ST.3.5"                                ]},
 
     "Penetration Testing"                                 : { "key": "PT"   , "activities": [ "PT.1.1"  , "PT.1.2"  , "PT.1.3"  , "PT.2.2"  , "PT.2.3"  , "PT.3.1"  , "PT.3.2"                                                      ]},
-    "Software Environment"                                : { "key": "SE"   , "activities": [ "SE.1.1"  , "SE.1.2"  , "SE.2.2"  , "SE.2.4"  , "SE.3.2"  , "SE.3.3"                                                                  ]},
+    "Software Environment"                                : { "key": "SE"   , "activities": [ "SE.1.1"  , "SE.1.2"  , "SE.2.2"  , "SE.2.4"  , "SE.3.2"  , "SE.3.3"  , "SE.3.4"    , "SE.3.5"    , "SE.3.6"    , "SE.3.7"                                                                    ]},
     "Configuration Management & Vulnerability Management" : { "key": "CMVM" , "activities": [ "CMVM.1.1", "CMVM.1.2", "CMVM.2.1", "CMVM.2.2", "CMVM.2.3", "CMVM.3.1", "CMVM.3.2", "CMVM.3.3", "CMVM.3.4"                            ]}
   },
   "activities":
@@ -47,10 +47,10 @@
     "SM.2.1"   :{ "level" :"2", "name" : "Publish data about software security internally"                                              },
     "SM.2.2"   :{ "level" :"2", "name" : "Enforce gates with measurements and track exceptions"                                         },
     "SM.2.3"   :{ "level" :"2", "name" : "Create or grow a satellite"                                                                   },
-    "SM.2.5"   :{ "level" :"2", "name" : "Identify metrics and use them to drive budgets"                                               },
     "SM.2.6"   :{ "level" :"2", "name" : "Require security sign-off"                                                                    },
     "SM.3.1"   :{ "level" :"3", "name" : "Use an internal tracking application with portfolio view"                                     },
     "SM.3.2"   :{ "level" :"3", "name" : "Run an external marketing program"                                                            },
+    "SM.3.3"   :{ "level" :"3", "name" : "Identify metrics and use them to drive budgets."                                                            },
 
     "CP.1.1"   :{ "level" :"1", "name" : "Unify regulatory pressures"                                                                   },
     "CP.1.2"   :{ "level" :"1", "name" : "Identify PII obligations"                                                                     },
@@ -70,21 +70,21 @@
     "T.1.7"    :{ "level" :"1", "name" : "Deliver on-demand individual training"                                                        },
     "T.2.5"    :{ "level" :"2", "name" : "Enhance satellite through training and events"                                                },
     "T.2.6"    :{ "level" :"2", "name" : "Include security resources in onboarding"                                                     },
-    "T.2.7"    :{ "level" :"2", "name" : "Identify satellite through training"                                                          },
     "T.3.1"    :{ "level" :"3", "name" : "Reward progression through curriculum (certification or HR)"                                  },
     "T.3.2"    :{ "level" :"3", "name" : "Provide training for vendors or outsourced workers"                                           },
     "T.3.3"    :{ "level" :"3", "name" : "Host external software security events"                                                       },
     "T.3.4"    :{ "level" :"3", "name" : "Require an annual refresher"                                                                  },
     "T.3.5"    :{ "level" :"3", "name" : "Establish SSG office hours"                                                                   },
+    "T.3.6"    :{ "level" :"3", "name" : "Identify a satellite through training."                                                                   },
 
-    "AM.1.1"   :{ "level" :"1", "name" : "Build and maintain a top N possible attacks list"                                             },
     "AM.1.2"   :{ "level" :"1", "name" : "Create a data classification scheme and inventory"                                            },
     "AM.1.3"   :{ "level" :"1", "name" : "Identify potential attackers"                                                                 },
-    "AM.1.4"   :{ "level" :"1", "name" : "Collect and publish attack stories"                                                           },
     "AM.1.5"   :{ "level" :"1", "name" : "Gather and use attack intelligence"                                                           },
-    "AM.1.6"   :{ "level" :"1", "name" : "Build an internal forum to discuss attacks"                                                   },
     "AM.2.1"   :{ "level" :"2", "name" : "Build attack patterns and abuse cases tied to potential attackers"                            },
     "AM.2.2"   :{ "level" :"2", "name" : "Create technology-specific attack patterns"                                                   },
+    "AM.2.5"   :{ "level" :"2", "name" : "Build and maintain a top N possible attacks list."                                                   },
+    "AM.2.6"   :{ "level" :"2", "name" : "Collect and publish attack stories."                                                   },
+    "AM.2.7"   :{ "level" :"2", "name" : "Build an internal forum to discuss attacks."                                                   },
     "AM.3.1"   :{ "level" :"3", "name" : "Have a science team that develops new attack methods"                                         },
     "AM.3.2"   :{ "level" :"3", "name" : "Create and use automation to do what attackers will do"                                       },
 
@@ -103,9 +103,9 @@
     "SR.2.3"   :{ "level" :"2", "name" : "Create standards for technology stacks"                                                       },
     "SR.2.4"   :{ "level" :"2", "name" : "Identify open source"                                                                         },
     "SR.2.5"   :{ "level" :"2", "name" : "Create SLA boilerplate"                                                                       },
-    "SR.2.6"   :{ "level" :"2", "name" : "Use secure coding standards"                                                                  },
     "SR.3.1"   :{ "level" :"3", "name" : "Control open source risk"                                                                     },
     "SR.3.2"   :{ "level" :"3", "name" : "Communicate standards to vendors"                                                             },
+    "SR.3.3"   :{ "level" :"3", "name" : "Use secure coding standards."                                                             },
 
     "AA.1.1"   :{ "level" :"1", "name" : "Perform security feature review"                                                              },
     "AA.1.2"   :{ "level" :"1", "name" : "Perform design review for high-risk applications"                                             },
@@ -113,21 +113,21 @@
     "AA.1.4"   :{ "level" :"2", "name" : "Use a risk questionnaire to rank applications"                                                },
     "AA.2.1"   :{ "level" :"2", "name" : "Define and use AA process"                                                                    },
     "AA.2.2"   :{ "level" :"2", "name" : "Standardize architectural descriptions (including data flow)"                                 },
-    "AA.2.3"   :{ "level" :"2", "name" : "Make SSG available as AA resource or mentor"                                                  },
     "AA.3.1"   :{ "level" :"3", "name" : "Have software architects lead design review efforts"                                          },
     "AA.3.2"   :{ "level" :"3", "name" : "Drive analysis results into standard architecture patterns"                                   },
+    "AA.3.3"   :{ "level" :"3", "name" : "Use secure coding standards."                                   },
 
-    "CR.1.1"   :{ "level" :"1", "name" : "Use a top N bugs list (real data preferred)"                                                  },
     "CR.1.2"   :{ "level" :"1", "name" : "Have SSG perform ad hoc review"                                                               },
     "CR.1.4"   :{ "level" :"1", "name" : "Use automated tools along with manual review"                                                 },
     "CR.1.5"   :{ "level" :"1", "name" : "Make code review mandatory for all projects"                                                  },
     "CR.1.6"   :{ "level" :"1", "name" : "Use centralized reporting to close the knowledge loop and drive training"                     },
-    "CR.2.2"   :{ "level" :"2", "name" : "Enforce coding standards"                                                                     },
     "CR.2.5"   :{ "level" :"2", "name" : "Assign tool mentors"                                                                          },
     "CR.2.6"   :{ "level" :"2", "name" : "Use automated tools with tailored rules"                                                      },
+    "CR.2.7"   :{ "level" :"2", "name" : "Use a top N bugs list (real data preferred)."                                                      },
     "CR.3.2"   :{ "level" :"3", "name" : "Build a factory"                                                                              },
     "CR.3.3"   :{ "level" :"3", "name" : "Build a capability for eradicating specific bugs from the entire codebase"                    },
     "CR.3.4"   :{ "level" :"3", "name" : "Automate malicious code detection"                                                            },
+    "CR.3.4"   :{ "level" :"3", "name" : "Enforce coding standards."                                                            },
 
     "ST.1.1"   :{ "level" :"1", "name" : "Ensure QA supports edge/boundary value condition testing"                                     },
     "ST.1.3"   :{ "level" :"1", "name" : "Drive tests with security requirements and security features"                                 },
@@ -153,6 +153,10 @@
     "SE.2.4"   :{ "level" :"2", "name" : "Use code signing"                                                                             },
     "SE.3.2"   :{ "level" :"3", "name" : "Use code protection"                                                                          },
     "SE.3.3"   :{ "level" :"3", "name" : "Use application behavior monitoring and diagnostics"                                          },
+    "SE.3.4"   :{ "level" :"3", "name" : "Enforce coding standards."                                          },
+    "SE.3.5"   :{ "level" :"3", "name" : "Use orchestration for containers and virtualized environments."                                          },
+    "SE.3.6"   :{ "level" :"3", "name" : "Enhance application inventory with operations bill of materials."                                          },
+    "SE.3.7"   :{ "level" :"3", "name" : "Ensure cloud security basics."                                          },
 
     "CMVM.1.1" :{ "level" :"1", "name" : "Create or interface with incident response"                                                   },
     "CMVM.1.2" :{ "level" :"1", "name" : "Identify software defects found in operations monitoring and feed them back to development"   },
