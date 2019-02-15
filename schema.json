@@ -24,9 +24,9 @@
   {
     "Strategy & Metrics"                                  : { "key": "SM"   , "activities": [ "SM.1.1"  , "SM.1.2"  , "SM.1.3"  , "SM.1.4"  , "SM.2.1"  , "SM.2.2"  , "SM.2.3" , "SM.2.6" , "SM.3.1", "SM.3.2" , "SM.3.3"            ]},
     "Compliance & Policy"                                 : { "key": "CP"   , "activities": [ "CP.1.1"  , "CP.1.2"  , "CP.1.3"  , "CP.2.1"  , "CP.2.2"  , "CP.2.3"  , "CP.2.4" , "CP.2.5" , "CP.3.1" , "CP.3.2", "CP.3.3"           ]},
-    "Training"                                            : { "key": "T"    , "activities": [ "T.1.1"   , "T.1.5"   , "T.1.6"   , "T.1.7"   , "T.2.5"   , "T.2.6" , "T.3.1"  , "T.3.2"  , "T.3.3" , "T.3.4" , "T.3.5" , "T.3.6"  ]},
+    "Training"                                            : { "key": "T"    , "activities": [ "T.1.1"   , "T.1.5"   , "T.1.6"   , "T.1.7"   , "T.2.5"   , "T.2.6"   , "T.3.1"  , "T.3.2"  , "T.3.3"  , "T.3.4" , "T.3.5" , "T.3.6"  ]},
 
-    "Attack Models"                                       : { "key": "AM"   , "activities": [ "AM.1.1"  , "AM.1.2"  , "AM.1.5"   , "AM.2.1" , "AM.2.2" , "AM.2.3" , "AM.2.5" , "AM.2.6" , "AM.2.7" , "AM.3.1" , "AM.3.2"                     ]},
+    "Attack Models"                                       : { "key": "AM"   , "activities": [ "AM.1.2"  , "AM.1.3"  , "AM.1.5"  , "AM.2.1"  , "AM.2.2"   , "AM.2.5" , "AM.2.6" , "AM.2.7" , "AM.3.1" , "AM.3.2"            ]},
     "Security Features & Design"                          : { "key": "SFD"  , "activities": [ "SFD.1.1" , "SFD.1.2" , "SFD.2.1" , "SFD.2.2" , "SFD.3.1" , "SFD.3.2" , "SFD.3.3"                                                     ]},
     "Standards & Requirements"                            : { "key": "SR"   , "activities": [ "SR.1.1"  , "SR.1.2"  , "SR.1.3"  , "SR.2.2"  , "SR.2.3"  , "SR.2.4"  , "SR.2.5" , "SR.3.1" , "SR.3.2"   , "SR.3.3"                   ]},
 
@@ -75,16 +75,16 @@
     "T.3.3"    :{ "level" :"3", "name" : "Host external software security events"                                                       },
     "T.3.4"    :{ "level" :"3", "name" : "Require an annual refresher"                                                                  },
     "T.3.5"    :{ "level" :"3", "name" : "Establish SSG office hours"                                                                   },
-    "T.3.6"    :{ "level" :"3", "name" : "Identify a satellite through training."                                                                   },
+    "T.3.6"    :{ "level" :"3", "name" : "Identify a satellite through training."     							},
 
     "AM.1.2"   :{ "level" :"1", "name" : "Create a data classification scheme and inventory"                                            },
     "AM.1.3"   :{ "level" :"1", "name" : "Identify potential attackers"                                                                 },
     "AM.1.5"   :{ "level" :"1", "name" : "Gather and use attack intelligence"                                                           },
     "AM.2.1"   :{ "level" :"2", "name" : "Build attack patterns and abuse cases tied to potential attackers"                            },
     "AM.2.2"   :{ "level" :"2", "name" : "Create technology-specific attack patterns"                                                   },
-    "AM.2.5"   :{ "level" :"2", "name" : "Build and maintain a top N possible attacks list."                                                   },
-    "AM.2.6"   :{ "level" :"2", "name" : "Collect and publish attack stories."                                                   },
-    "AM.2.7"   :{ "level" :"2", "name" : "Build an internal forum to discuss attacks."                                                   },
+    "AM.2.5"   :{ "level" :"2", "name" : "Build and maintain a top N possible attacks list."                                            },
+    "AM.2.6"   :{ "level" :"2", "name" : "Collect and publish attack stories."                                                   	},
+    "AM.2.7"   :{ "level" :"2", "name" : "Build an internal forum to discuss attacks."                                                  },
     "AM.3.1"   :{ "level" :"3", "name" : "Have a science team that develops new attack methods"                                         },
     "AM.3.2"   :{ "level" :"3", "name" : "Create and use automation to do what attackers will do"                                       },
 
@@ -110,7 +110,7 @@
     "AA.1.1"   :{ "level" :"1", "name" : "Perform security feature review"                                                              },
     "AA.1.2"   :{ "level" :"1", "name" : "Perform design review for high-risk applications"                                             },
     "AA.1.3"   :{ "level" :"1", "name" : "Have SSG lead design review efforts"                                                          },
-    "AA.1.4"   :{ "level" :"2", "name" : "Use a risk questionnaire to rank applications"                                                },
+    "AA.1.4"   :{ "level" :"1", "name" : "Use a risk questionnaire to rank applications"                                                },
     "AA.2.1"   :{ "level" :"2", "name" : "Define and use AA process"                                                                    },
     "AA.2.2"   :{ "level" :"2", "name" : "Standardize architectural descriptions (including data flow)"                                 },
     "AA.3.1"   :{ "level" :"3", "name" : "Have software architects lead design review efforts"                                          },
@@ -127,7 +127,7 @@
     "CR.3.2"   :{ "level" :"3", "name" : "Build a factory"                                                                              },
     "CR.3.3"   :{ "level" :"3", "name" : "Build a capability for eradicating specific bugs from the entire codebase"                    },
     "CR.3.4"   :{ "level" :"3", "name" : "Automate malicious code detection"                                                            },
-    "CR.3.4"   :{ "level" :"3", "name" : "Enforce coding standards."                                                            },
+    "CR.3.5"   :{ "level" :"3", "name" : "Enforce coding standards."                                                            },
 
     "ST.1.1"   :{ "level" :"1", "name" : "Ensure QA supports edge/boundary value condition testing"                                     },
     "ST.1.3"   :{ "level" :"1", "name" : "Drive tests with security requirements and security features"                                 },
