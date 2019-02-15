@@ -1,4 +1,14 @@
 {
+  "metadata": {
+    "team": "BSIMM - Level 3",
+    "security-champion": "",
+    "source-code-repo": "",
+    "issue-tracking": "",
+    "wiki": "",
+    "ci-server": "",
+    "created-by": "",
+    "hide-from-stats": "yes"
+  },
   "activities": {
     "SM.1.1": {
       "value": "Yes",
@@ -16,6 +26,34 @@
       "value": "Yes",
       "proof": ""
     },
+    "SM.2.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SM.2.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SM.2.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SM.2.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SM.3.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SM.3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SM.3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
     "CP.1.1": {
       "value": "Yes",
       "proof": ""
@@ -25,6 +63,38 @@
       "proof": ""
     },
     "CP.1.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.2.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.2.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.2.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.2.4": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.2.5": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.3.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CP.3.3": {
       "value": "Yes",
       "proof": ""
     },
@@ -44,182 +114,6 @@
       "value": "Yes",
       "proof": ""
     },
-    "AM.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AM.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SM.2.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SM.2.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SM.2.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SM.2.5": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SM.2.6": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.2.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.2.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SM.3.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SM.3.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.3.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.3.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.3.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "T.3.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AM.1.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AM.1.4": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AM.1.5": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AM.1.6": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SFD.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SFD.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SR.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SR.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SR.1.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AA.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AA.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "AA.1.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CR.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CR.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CR.1.4": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CR.1.5": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CR.1.6": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "ST.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "ST.1.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "PT.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "PT.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "PT.1.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SE.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "SE.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CMVM.1.1": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CMVM.1.2": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.2.3": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.2.4": {
-      "value": "Yes",
-      "proof": ""
-    },
-    "CP.2.5": {
-      "value": "Yes",
-      "proof": ""
-    },
     "T.2.5": {
       "value": "Yes",
       "proof": ""
@@ -228,7 +122,7 @@
       "value": "Yes",
       "proof": ""
     },
-    "T.2.7": {
+    "T.3.1": {
       "value": "Yes",
       "proof": ""
     },
@@ -248,6 +142,23 @@
       "value": "Yes",
       "proof": ""
     },
+    "T.3.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+
+    "AM.1.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AM.1.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AM.1.5": {
+      "value": "Yes",
+      "proof": ""
+    },
     "AM.2.1": {
       "value": "Yes",
       "proof": ""
@@ -256,11 +167,31 @@
       "value": "Yes",
       "proof": ""
     },
+    "AM.2.5": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AM.2.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AM.2.7": {
+      "value": "Yes",
+      "proof": ""
+    },
     "AM.3.1": {
       "value": "Yes",
       "proof": ""
     },
     "AM.3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SFD.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SFD.1.2": {
       "value": "Yes",
       "proof": ""
     },
@@ -284,6 +215,18 @@
       "value": "Yes",
       "proof": ""
     },
+    "SR.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SR.1.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SR.1.3": {
+      "value": "Yes",
+      "proof": ""
+    },
     "SR.2.2": {
       "value": "Yes",
       "proof": ""
@@ -300,15 +243,27 @@
       "value": "Yes",
       "proof": ""
     },
-    "SR.2.6": {
-      "value": "Yes",
-      "proof": ""
-    },
     "SR.3.1": {
       "value": "Yes",
       "proof": ""
     },
     "SR.3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SR.3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AA.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AA.1.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "AA.1.3": {
       "value": "Yes",
       "proof": ""
     },
@@ -324,10 +279,6 @@
       "value": "Yes",
       "proof": ""
     },
-    "AA.2.3": {
-      "value": "Yes",
-      "proof": ""
-    },
     "AA.3.1": {
       "value": "Yes",
       "proof": ""
@@ -336,7 +287,23 @@
       "value": "Yes",
       "proof": ""
     },
-    "CR.2.2": {
+    "AA.3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CR.1.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CR.1.4": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CR.1.5": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CR.1.6": {
       "value": "Yes",
       "proof": ""
     },
@@ -345,6 +312,10 @@
       "proof": ""
     },
     "CR.2.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CR.2.7": {
       "value": "Yes",
       "proof": ""
     },
@@ -357,6 +328,18 @@
       "proof": ""
     },
     "CR.3.4": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CR.3.5": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "ST.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "ST.1.3": {
       "value": "Yes",
       "proof": ""
     },
@@ -388,6 +371,18 @@
       "value": "Yes",
       "proof": ""
     },
+    "PT.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "PT.1.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "PT.1.3": {
+      "value": "Yes",
+      "proof": ""
+    },
     "PT.2.2": {
       "value": "Yes",
       "proof": ""
@@ -404,6 +399,14 @@
       "value": "Yes",
       "proof": ""
     },
+    "SE.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SE.1.2": {
+      "value": "Yes",
+      "proof": ""
+    },
     "SE.2.2": {
       "value": "Yes",
       "proof": ""
@@ -417,6 +420,30 @@
       "proof": ""
     },
     "SE.3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SE.3.4": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SE.3.5": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SE.3.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "SE.3.7": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CMVM.1.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "CMVM.1.2": {
       "value": "Yes",
       "proof": ""
     },
@@ -448,15 +475,5 @@
       "value": "Yes",
       "proof": ""
     }
-  },
-  "metadata": {
-    "team": "Level 3",
-    "security-champion": "",
-    "source-code-repo": "",
-    "issue-tracking": "",
-    "wiki": "",
-    "ci-server": "",
-    "created-by": "",
-    "hide-from-stats": "yes"
   }
 }
